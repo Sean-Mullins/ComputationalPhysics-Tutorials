@@ -1,0 +1,5 @@
+Goal:
+
+To create a script that can:
+	1) return the center of mass of provided coordinates
+	2) return the coordinates with the center of mass set to the origin
