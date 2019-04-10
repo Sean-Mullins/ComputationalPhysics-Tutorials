@@ -1,0 +1,4 @@
+Goal:
+
+To create a script that can:
+	1) Find the xsf file provided and return a file in gaussian cube format

@@ -1,0 +1,18 @@
+Goal:
+
+
+Update existing interatomic distance program.
+
+
+	- Find a way to be able to extract distances for select atoms. Should be able to identify the atom numbers by the row and column potentially. Also check pdist function, maybe instead of rearranging into matrices, we can just extract the right number of elements from np.array?
+
+	- Calculate speed improvement on large structures. Write a script that cycles through a bunch of structures with different number of atoms and appends the number of atoms and execution time to a file. Then run on laptop, shamu cpu, and shamu gpu. Plot the results.
+
+	- Calculate the speed up or slow down of calling function from an outside program. Preliminary tests show a slight slow down. This might be less noticeable as size of structures increases. Probably more convenient to still call function then include code everytime.
+
+	- (Test) Would be interesting to time the difference between calculating the entire distance matrix as opposed to looping through elements individually.  
+
+	- Create jupyter notebook showing how the interatomic distance calculation works.
+	
+
+
